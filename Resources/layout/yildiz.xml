@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:src="@drawable/yenilogo"
+		android:minWidth="50px"
+		android:minHeight="50px"/>
+    />
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="1.0"
+        tools:ignore="MissingDimension" />
+    <TextView
+           android:textSize="25sp"
+           android:gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_gravity="center_vertical"
+           android:text="Ayık Sürücü'yü kullandığınız için teşekkür ederiz."/>
+</LinearLayout>

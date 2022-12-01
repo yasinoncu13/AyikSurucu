@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="T.C.Kimlik No."
+        android:id="@+id/edTc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad"
+        android:id="@+id/edAd"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad"
+        android:id="@+id/edSoyad"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:id="@+id/edMail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parola"
+        android:id="@+id/edPass"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ayık Sürücü için"
+        android:id="@+id/aykSur"/>
+    <Button
+        android:id="@+id/uyeol1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ÜYE OL"/>
+</LinearLayout>

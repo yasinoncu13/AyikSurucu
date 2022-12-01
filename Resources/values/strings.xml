@@ -1,0 +1,24 @@
+﻿<resources>
+	<string name="app_name">AyikSurucu</string>
+	<string name="action_settings">Settings</string>
+	<string name="google_maps_key">AIzaSyDkLEoEoV_nCC0wfW4_8AfW4fGUMu6Oswc</string>
+	<array name="sehir">
+		<item>İstanbul</item>
+		<item>Ankara</item>
+		<item>İzmir</item>
+	</array>
+	<array name="araba">
+		<item>Citroen (Ücret tarifesi KM başına 15 TL)</item>
+		<item>Fiat (Ücret tarifesi KM başına 15 TL)</item>
+		<item>Peugeot (Ücret tarifesi KM başına 15 TL)</item>
+		<item>Opel (Ücret tarifesi KM başına 18 TL)</item>
+		<item>Honda (Ücret tarifesi KM başına 18 TL)</item>
+		<item>Ford (Ücret tarifesi KM başına 18 TL)</item>
+		<item>Mercedes-Benz (Ücret tarifesi KM başına 20 TL)</item>
+		<item>Audi (Ücret tarifesi KM başına 20 TL)</item>
+		<item>BMW (Ücret tarifesi KM başına 20 TL)</item>
+		<item>Jaguar (Ücret tarifesi KM başına 25 TL)</item>
+		<item>Ferrari (Ücret tarifesi KM başına 25 TL)</item>
+		<item>Maserati (Ücret tarifesi KM başına 25 TL)</item>
+	</array>
+</resources>

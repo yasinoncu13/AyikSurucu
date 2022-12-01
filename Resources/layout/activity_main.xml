@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_vertical">
+	<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:src="@drawable/yenilogo"
+		android:minWidth="50px"
+		android:minHeight="50px"/>
+    <!--<com.felipecsl.gifimageview.library.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/giflogo"
+        android:src="@drawable/yenilogo"/>
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_gravity="center"/>-->
+    <EditText
+		android:hint="E-Posta Adresi"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1" 
+		android:inputType="text"/>
+	<EditText
+		android:hint="Şifre"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText2"
+		android:inputType="numberPassword"/>
+    <Button
+        android:text="Müşteri olarak giriş yap"
+        android:id="@+id/giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		/>
+    <Button
+        android:text="Ayık sürücü olarak giriş yap"
+        android:id="@+id/girsurucu"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+	<Button
+            android:text="ÜYE OL"
+            android:id="@+id/uyeol2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+    <TextView
+        android:textSize="30sp"
+			android:text="Şifrenizi unuttunuz mu?"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/textView1" />
+    <TextView
+            android:textSize="20sp"
+			android:text="Admin Panele giriş"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/txtAdmin" />
+</LinearLayout>
